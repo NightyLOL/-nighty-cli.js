@@ -1,11 +1,11 @@
 {
   "name": "@nighty-78/cli.js",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.0",
   "description": "Handle most of your problems (coding problems NOT irl) with a cool cli",
   "main": "src/main.js",
   "bin": {
-    "ntools": "./src/main.js",
-    "nts": "./src/main.js"
+    "ntools": "src/main.js",
+    "nts": "src/main.js"
   },
   "publishConfig": {
     "access": "public"
@@ -27,5 +27,13 @@
   "dependencies": {
     "fs-extra": "^10.0.0",
     "readline-sync": "^1.4.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NightyLOL/-nighty-cli.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NightyLOL/-nighty-cli.js/issues"
+  },
+  "homepage": "https://github.com/NightyLOL/-nighty-cli.js#readme"
 }
