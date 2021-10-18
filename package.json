@@ -1,0 +1,31 @@
+{
+  "name": "@nighty-78/cli.js",
+  "version": "1.0.0",
+  "description": "Handle most of your problems (coding problems NOT irl) with a cool cli",
+  "main": "src/main.js",
+  "bin": {
+    "ntools": "./src/main.js",
+    "nts": "./src/main.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "keywords": [
+    "cli.js",
+    "@nighty",
+    "command",
+    "line"
+  ],
+  "author": "nighty-78",
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^16.11.1"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "readline-sync": "^1.4.10"
+  }
+}
